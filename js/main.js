@@ -810,22 +810,22 @@ function gerarExemplo() {
 	adicionarFilho(15);
 
 
-	nodos[15].valor = 8;
-	nodos[16].valor = 23;
-	nodos[17].valor = -47;
-	nodos[18].valor = 28;
-	nodos[19].valor = -30;
-	nodos[20].valor = -37;
-	nodos[21].valor = 3;
-	nodos[22].valor = -41;
-	nodos[23].valor = -19;
-	nodos[24].valor = 4;
-	nodos[25].valor = -49;
-	nodos[26].valor = 4;
-	nodos[27].valor = 43;
-	nodos[28].valor = 45;
-	nodos[29].valor = -26;
-	nodos[30].valor = -14;
+	nodos[15].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[16].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[17].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[18].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[19].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[20].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[21].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[22].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[23].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[24].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[25].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[26].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[27].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[28].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[29].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
+	nodos[30].valor = parseInt(Math.random() * (60 - (-25)) + (-25));
 
 	tela.draw();
 }
